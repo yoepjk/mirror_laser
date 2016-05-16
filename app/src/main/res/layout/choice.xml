@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textSize="25dp"
+        android:text="           STAGE SELECT" 
+        />
+    	
+    
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/stage1"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="95dp"
+	        android:text="1" />
+
+	    <Button
+	        android:id="@+id/stage3"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_below="@+id/stage1"
+	        android:layout_marginLeft="28dp"
+	        android:layout_marginTop="31dp"
+	        android:layout_toRightOf="@+id/stage1"
+	        android:text="3" />
+
+	    <Button
+	        android:id="@+id/stage4"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/stage3"
+	        android:layout_marginRight="52dp"
+	        android:layout_marginTop="42dp"
+	        android:text="4" />
+
+	    <Button
+	        android:id="@+id/stage5"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_alignLeft="@+id/stage1"
+	        android:layout_below="@+id/stage4"
+	        android:layout_marginLeft="18dp"
+	        android:text="5" />
+
+	    <Button
+	        android:id="@+id/stage2"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_above="@+id/stage3"
+	        android:layout_alignRight="@+id/stage4"
+	        android:layout_marginRight="20dp"
+	        android:text="2" />
+
+	</RelativeLayout>
+    
+</LinearLayout>

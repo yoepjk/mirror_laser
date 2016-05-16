@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<level>
+    <startRay power = "1000">
+        <position x = "200" y = "50" />
+        <direction x = "0" y = "1" />
+    </startRay>
+    	
+    <goal radius = "30">
+        <position x = "430" y = "70" />
+    </goal>
+      
+    <wall angle = "0" length = "180" >
+		<position x = "0" y = "100" />
+    </wall>
+    
+ 	<wall angle = "0" length = "220" >
+		<position x = "250" y = "300" />
+    </wall>
+    
+ 	<mirror angle = "15" length = "100">
+        <position x = "200" y = "400" /> 
+    </mirror>
+ 	 	
+ 	<mirror angle = "-15" length = "100">
+        <position x = "50" y = "250" /> 
+    </mirror>
+    
+    <mirror angle = "15" length = "100">
+        <position x = "420" y = "650" /> 
+    </mirror>
+    
+    <mirror angle = "15" length = "100">
+        <position x = "50" y = "600" /> 
+    </mirror>
+    
+    <mirror angle = "15" length = "100">
+        <position x = "430" y = "250" /> 
+    </mirror>
+    
+</level>
